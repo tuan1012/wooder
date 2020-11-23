@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'PB';
+    src: url(/fonts/ProximaNova-Bold.woff),
+        url(/fonts/ProximaNova-Bold.woff2)
+}
+@font-face {
+    font-family: 'PR';
+    src: url(/fonts/ProximaNova-Regular.woff),
+        url(/fonts/ProximaNova-Regular.woff2);
+}
+@font-face {
+    font-family: 'PEB';
+    src: url(/fonts/ProximaNovaA-Extrabld.woff),
+        url(/fonts/ProximaNovaA-Extrabld.woff2);
+}
+@font-face {
+    font-family: 'fmain';
+    src: url('../fonts/Barlow-Regular.woff2') format('woff2'),
+        url('../fonts/Barlow-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'bb';
+    src: url('../fonts/Barlow-Bold.woff2') format('woff2'),
+        url('../fonts/Barlow-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'l';
+    src: url('../fonts/LaloGroteskRegular.woff2') format('woff2'),
+        url('../fonts/LaloGroteskRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'lm';
+    src: url('../fonts/LaloGroteskMedium.woff2') format('woff2'),
+        url('../fonts/LaloGroteskMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'h';
+    src: url('../fonts/HansonBold.woff2') format('woff2'),
+        url('../fonts/HansonBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: fallback;
+}
+

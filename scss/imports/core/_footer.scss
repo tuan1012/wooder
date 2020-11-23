@@ -1,0 +1,32 @@
+footer {
+  font-family: PB;
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+
+    p {
+      color: white;
+      font-family: PR;
+    }
+  }
+}
+
+@include mobile {
+  footer {
+    .container {
+      max-width: 90%;
+
+      p {
+        font-size: 10px;
+      }
+
+      img {
+        height: 15px;
+      }
+    }
+  }
+}
